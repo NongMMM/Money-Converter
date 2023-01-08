@@ -1,0 +1,81 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* money pic&text */
+.money{
+    text-align: center;
+}
+.money-img{
+    width: 40%;
+}
+.money-text{
+    font-size: 5rem;
+    color: rgb(243, 157, 29);
+    text-shadow: 3px 2px 2px rgb(52, 52, 52);
+}
+
+/* container */
+.container{
+    margin: 50px;
+    justify-content: center;
+    text-align: center;
+}
+
+
+/* button & rate text*/
+.swap-btn{
+    margin: 20px 30px;
+    background-color: rgb(248, 152, 56);
+    color: rgb(45, 44, 44);
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: 0.7s;
+    border: 1px solid gray;
+}
+.swap-btn:hover{
+    color: rgb(255, 255, 255);
+    transform: scale(1.1);
+}
+.swap{
+    text-align: center;
+    display:flex;
+    align-items: center;
+    justify-content:center;
+}
+.class-rate{
+    font-weight: 500;
+}
+
+
+/* currency */
+.currency{
+    padding: 20px 0;
+}
+.currency select{
+    padding: 10px 20px;
+    border: 1px solid rgb(148, 151, 149);
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 500;
+    appearance: none;
+    transition: 0.7s;
+    cursor: pointer;
+}
+.currency select:hover{
+    transform: scale(1.1);
+}
+.currency input{
+    width: 250px;
+    text-align: right;
+    padding: 9px 0;
+    font-size:20px;
+    border: 1px dotted gray;
+    border-radius: 5px;
+}
